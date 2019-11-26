@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Masonry</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .box {
+      background: black;
+      margin: 5px;
+    }
+  </style>
+  <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+  <script src="http://masonry.desandro.com/masonry.pkgd.min.js"></script>
+  <script>
+    //이벤트를 연결합니다.
+
+
+    $(document).ready(function() {
+      //문서 객체를 생성합니다.
+
+
+
+
+
+      var appendDocument = function(){
+        $grid = $('body').masonry({
+          itemSelector: '.box',
+          columnWidth: 110
+        });
+        for (var i = 0; i < 100; i++) {
+          var item = $('<div></div>').addClass('box').css({
+            width: 100,
+            height: Math.floor(Math.random() * 100) + 50
+          });
+          $grid.append(item).masonry('appended', item);
+        }
+      };
+
+      appendDocument();
+
+      $(window).scroll(function() {
+        var scrollHeight = $(window).scrollTop() + $(window).height();
+        var documentHeight = $(document).height();
+        console.log(scrollHeight,documentHeight);
+        if (Math.round(scrollHeight+1) >= documentHeight) {
+          appendDocument();
+        }
+      });
+
+    });
+  </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
