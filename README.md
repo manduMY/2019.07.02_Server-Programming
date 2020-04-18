@@ -9,7 +9,7 @@ node.js Server_Programming
 서버 프로그래밍 프로젝트
 
 - 핵심 목표: 서버 프로그래밍을 해보자
-- Keyword: 
+- Keyword: node.js, javascript, Jquery, Ajax, Ejs Templete, bootstrap, Multur 모듈, Express 서버, 미들웨어, Box Slider, LightBox, Open API, FlexSlider, Parsing, 크롤링, MongoDB, 반응형 웹, Server-Side, Client-Side
 - 개발 기간: 2019.07 ~ 2019.08
 
 공모전 정보를 크롤링해 나의 웹사이트에 뿌려주는 사이트
