@@ -143,7 +143,16 @@ node.js Server_Programming
 -> app.js 실행
 
 -> chrome 열어서 localhost:3000 타이핑
+```bash
+cd 공모전~1
 
+node dbinit.js
+
+node dbinit2.js
+
+app.js
+```
+-> 웹브라우저 localhost:3000 
 맺으며
 ---
 - 백엔드에 대해서 조금 알게되는 계기가 되었다.
