@@ -121,6 +121,7 @@ node.js Server_Programming
 ---
 - [MongoDB 설정하기](markdown/index/MongoDB.md)
   - 위와같이 MongoDB 개발환경 셋팅을 해주어야 정상적으로 공모전 데이터가 크롤링 됩니다.
+  - 회원가입과 로그인 기능을 이용하기 위해 필요합니다.
   
 - node.js 설치
 
