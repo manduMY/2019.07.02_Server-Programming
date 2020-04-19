@@ -122,27 +122,15 @@ node.js Server_Programming
 - [MongoDB 설정하기](markdown/index/MongoDB.md)
   - 위와같이 MongoDB 개발환경 셋팅을 해주어야 정상적으로 공모전 데이터가 크롤링 됩니다.
   
+- node.js 설치
+
 - 로컬 환경에서 실행하기
   - 로컬 환경이므로 Chrome이나 Internet Explorer를 킬때 localhost:3000를 주소창에 쳐야 들어가집니다.
   
 ***
 ##### ※ 프로그램 실행 순서 ※ 
   
--> 몽고DB Comunity 버전 설치
-
--> node.js 설치
-
--> cmd 창을 실행
-
--> cd 공모전~1 으로 change directory
-
--> node dbinit.js 실행
-
--> node dbinit2.js 실행
-
--> app.js 실행
-
--> chrome 열어서 localhost:3000 타이핑
+-> cmd execute
 ```bash
 cd 공모전~1
 
@@ -152,7 +140,7 @@ node dbinit2.js
 
 app.js
 ```
--> 웹브라우저 localhost:3000 
+-> 웹브라우저 localhost:3000 접속
 
 <br/>
 
