@@ -9,7 +9,7 @@ node.js Server_Programming
 서버 프로그래밍 프로젝트
 
 - 핵심 목표: 서버 프로그래밍을 해보자
-- Keyword: node.js, javascript, Jquery, Ajax, Ejs Templete, bootstrap, Multur 모듈, Express 서버, 미들웨어, Box Slider, LightBox, Open API, FlexSlider, Parsing, 크롤링, MongoDB, Session, 반응형 웹, Server-Side, Client-Side
+- Keyword: node.js, javascript, Jquery, Ajax, Ejs Templete, bootstrap, Multer 모듈, Express 서버, 미들웨어, Box Slider, LightBox, Open API, FlexSlider, Parsing, 크롤링, MongoDB, Session, 반응형 웹, Server-Side, Client-Side
 - 주제: 각종 공모전 컨텐츠들을 한눈에 볼 수 있도록 제공하는 웹 서비스
 - 내용: 공모전 정보와 입상 후 포트폴리오 양식 지원, 공모전을 준비하는 사람들이 정보를 쉽게 얻고 자기계발 향상을 위한 서비스 제공
 - 개발 기간: 2019.07 ~ 2019.08
